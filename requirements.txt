@@ -1,0 +1,3 @@
+Unidecode==0.04.19
+markovify==0.2.5
+smarkov==1.0
