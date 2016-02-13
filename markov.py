@@ -5,7 +5,7 @@ import markovify # https://github.com/jsvine/markovify
 
 allwords = []
 
-files = glob('/home/ubuntu/workspace/markov/SouthParkData/Season*.csv')
+files = glob('SouthParkData/Season*.csv')
 with open(files[random.randrange(len(files))]) as infile:
     for line in infile:
         words = line[line.find('"'):].replace('\n', '').replace('"', '').split(' ')
